@@ -5,24 +5,19 @@
 <h2> ✨ Objetivos</h2>
 <hr>
 <ul>
-<p align="justify">O objetivo deste trabalho é simular um sistema de gerenciamento 
-de um treinamento hipotético<br> em uma grande empresa de Tecnologia 
-da Informação. </p>
-<p>Conforme o problema exposto, segue a explicação:
+<p align="center">O objetivo deste trabalho é simular um sistema de gerenciamento de um treinamento hipotético em uma grande empresa de Tecnologia da Informação. </p>
+<p align="center">Conforme o problema exposto, segue a explicação:
 <br>
-<p align="justify"><cite>"O treinamento será realizado em 2 etapas e as pessoas serão 
-divididas em salas com lotação variável. <br>Serão realizados também 
-dois intervalos de café em 2 espaços distintos. <br>Você precisa criar 
-o sistema que gerenciará este evento."</cite>
+<p align="center"><cite>"O treinamento será realizado em 2 etapas e as pessoas serão divididas em salas com lotação variável.Serão realizados também dois intervalos de café em 2 espaços distintos. Você precisa criar o sistema que gerenciará este evento."</cite>
 </p>
 <br>
 </ul>
 
 <h2> ✨ Tecnologias</h2>
 <hr>
-<ul type="square">
-As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <ul>
+As seguintes ferramentas foram usadas na construção do projeto:<br><br>
+<ul type="square">
 <li><a href="https://www.eclipse.org/downloads/">Eclipse</a></li>
 <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK</a></li>
 <li><a href="https://www.postman.com/">Postman</a></li>
@@ -50,7 +45,7 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:<br><br>
 
 <ul><i>cd "diretorio de sua preferencia"<br>
-git clone https://github.com/condessalovelace/mavenquickstart</ul></i>
+git clone https://github.com/AmandaCasagrande/GerenciadorTreinamento</ul></i><br>
 
 Para construir o projeto com o Maven, executar os comando abaixo:
 
@@ -67,7 +62,7 @@ Para rodar os testes, utilize o comando abaixo:
 <br><br>
 <h2> ✨ Onde me encontrar:</h2>
 <hr>
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/casagrandeamanda)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/zenizenni/)
-E-mail: amanda.c06@aluno.ifsc.edu.br
+<ul type="square">
+<li><a href="https://www.linkedin.com/in/casagrandeamanda">LinkedIn</li></a>
+<li>E-mail: amanda.c06@aluno.ifsc.edu.br</li>
 <br><br><br>
