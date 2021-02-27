@@ -1,10 +1,11 @@
 package br.com.empresa.gestaocadastro.controller;
 
-import java.net.URI;
+import java.util.List;
 
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -25,11 +26,15 @@ public class GerarTreinamentoController {
 	
 	@PostMapping 
 	@Transactional
-	public ResponseEntity<GerarTreinamentoDTO> gerar(@RequestBody GerarTreinamentoForm gerarTreinamentoForm, UriComponentsBuilder uriBuilder) {
-		GerarTreinamentoDTO gerarTreinamentoDTO = service.gerar(gerarTreinamentoForm);
+	public ResponseEntity<List<GerarTreinamentoDTO>> gerar(@RequestBody GerarTreinamentoForm gerarTreinamentoForm, UriComponentsBuilder uriBuilder) {
+		List<GerarTreinamentoDTO> gerarTreinamentoDTO;;
+		try {
+			gerarTreinamentoDTO = service.gerar(gerarTreinamentoForm);
+		} catch (Exception e) {
+			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(List.of(new GerarTreinamentoDTO(e.getMessage())));
+		}
 		
-		URI uri = uriBuilder.path("/movimentacao/{id}").buildAndExpand(gerarTreinamentoDTO.getId()).toUri();
-		return ResponseEntity.created(uri).body(gerarTreinamentoDTO);
+		return ResponseEntity.ok(gerarTreinamentoDTO);
 	}
 	
 }

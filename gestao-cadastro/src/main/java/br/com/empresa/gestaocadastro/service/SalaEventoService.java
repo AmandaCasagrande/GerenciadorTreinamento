@@ -2,6 +2,8 @@ package br.com.empresa.gestaocadastro.service;
 
 import java.util.Optional;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +18,7 @@ public class SalaEventoService {
 	@Autowired
 	private SalaEventoRepository salaEventoRepository;
 	
+	@Transactional
 	public SalaEventoDTO cadastrar(SalaEventoForm salaEventoForm){
 		SalaEventoEntity salaEventoEntity = new SalaEventoEntity();
 		

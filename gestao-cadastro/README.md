@@ -5,10 +5,10 @@
 <h2> ✨ Objetivos</h2>
 <hr>
 <ul>
-<p align="center">O objetivo deste trabalho é simular um sistema de gerenciamento de um treinamento hipotético em uma grande empresa de Tecnologia da Informação. </p>
+<p align="center">O objetivo deste trabalho é simular um sistema de gerenciamento de um treinamento hipotético em uma grande empresa de Tecnologia da Informação. Este projeto foi desenvolvido em Linguagem Java 11.</p>
 <p align="center">Conforme o problema exposto, segue a explicação:
 <br>
-<p align="center"><cite>"O treinamento será realizado em 2 etapas e as pessoas serão divididas em salas com lotação variável.Serão realizados também dois intervalos de café em 2 espaços distintos. Você precisa criar o sistema que gerenciará este evento."</cite>
+<p align="center"><cite>"O treinamento será realizado em 2 etapas e as pessoas serão divididas em salas com lotação variável. Serão realizados também dois intervalos de café em 2 espaços distintos. Você precisa criar o sistema que gerenciará este evento."</cite>
 </p>
 <br>
 </ul>
@@ -37,11 +37,15 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <p>Inserir aqui a explicação</p>
 <p>Para executar o projeto, será necessário instalar os seguintes programas:<br>
 <ul type="square">
-<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 10:</a> Necessário para executar o projeto Java</li>
-<li><a href="https://maven.apache.org/">Maven 3.5.3: </a>Necessário para realizar o build do projeto Java</li>
-<li><a href="https://www.eclipse.org/downloads/packages/">Eclipse:</a> Para desenvolvimento do projeto</li>
+<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 10:</a> Necessário para executar o projeto Java;</li>
+<li><a href="https://maven.apache.org/">Maven 3.5.3: </a>Necessário para realizar o build do projeto Java;</li>
+<li><a href="https://www.eclipse.org/downloads/packages/">Eclipse:</a> Para desenvolvimento do projeto;</li>
+<li><a href="">Postman:</a>Para a entrada, consulta, atualização e exclusão de dados;</li>
+<li><a href="">Dbeaver</a>*:</li>
 <br>
 </ul>
+<i>* Ou qualquer outro SGBD de sua preferência.</i>
+<br><br>
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:<br><br>
 
 <ul><i>cd "diretorio de sua preferencia"<br>
@@ -60,6 +64,11 @@ Para rodar os testes, utilize o comando abaixo:
 </p>
 </ul>
 <br><br>
+
+<h2> ✨ Evidências</h2>
+<hr>
+<br><br>
+
 <h2> ✨ Onde me encontrar:</h2>
 <hr>
 <ul type="square">
