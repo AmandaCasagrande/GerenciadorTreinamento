@@ -72,7 +72,7 @@ Para rodar os testes, utilize o comando abaixo:
 <h3><li> Banco de Dados:</h3></ul>
 <h4><ul><ul><li> Participante: </li></h4></ul>
 <ul><ul><ul><li> Cadastrar:</li>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG" alt="centered image">
 <li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarParticipante1.PNG">
 <li> Atualizar:</li>
@@ -86,22 +86,22 @@ Para rodar os testes, utilize o comando abaixo:
 <h4><ul><ul><li> Espaço de Café: </li></h4></ul></ul>
 <ul><ul><ul><li> Cadastrar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarEspacoCafe.PNG">
-<li> Consultar:
+<li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarEspacoCafe.PNG">
-</li></ul></ul></ul>
+</ul></ul></ul>
 
 <h4><ul><ul><li> Sala de Treinamento: </li></h4></ul></ul>
 <ul><ul><ul><li> Cadastrar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEvento.PNG">
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEventoBD.PNG">
-<li> Consultar:
+<li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarSala.PNG">
-</li></ul></ul></ul>
+</ul></ul></ul>
 
 <h4><ul><ul><li> Relatório Geral dos Participantes: </li></h4></ul>
-<li> Consultar:
+<li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/RelatorioGerenciamento.PNG">
-</li></ul></ul></ul>
+</ul></ul></ul>
 
 <ul type="square">
 <h3><li> Testes Unitários:</h3></ul>
