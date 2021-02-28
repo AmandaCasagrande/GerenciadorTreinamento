@@ -9,6 +9,8 @@
 <p align="center">Conforme o problema exposto, segue a explicação:
 <br>
 <p align="center"><cite>"O treinamento será realizado em 2 etapas e as pessoas serão divididas em salas com lotação variável. Serão realizados também dois intervalos de café em 2 espaços distintos. Você precisa criar o sistema que gerenciará este evento."</cite>
+<br>
+  <p align="center">Neste <i>ReadMe.md</i> você encontrará as <i>Tecnologias</i> utilizadas para o desenvolvimento deste trabalho, assim como uma breve explicação de <i>Como compilar e executar este programa</i>, as <i>Evidências</i> para comprovação de alguns pontos que eu considero importante para o funcionamento do projeto e, por fim, <i>Onde me encontrar</i> nas redes sociais.</p>
 </p>
 <br>
 </ul>
@@ -22,7 +24,8 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK</a></li>
 <li><a href="https://www.postman.com/">Postman</a></li>
 <li><a href="https://dbeaver.io/">DBeaver</a></li>
-<li><a href="https://www.mysql.com/">MySQL</a></li>
+<li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+<li><a href="https://projectlombok.org/">Lombok</a></li>
 <li><a href="https://spring.io/">Spring Boot</a></li>
 <li><a href="https://start.spring.io/">Spring Initializr</a></li>
 <li><a href="https://maven.apache.org/">Apache Maven</a></li>
@@ -34,17 +37,17 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <h2> ✨ Como compilar e executar este programa</h2>
 <hr>
 <ul>
-<p>Inserir aqui a explicação</p>
 <p>Para executar o projeto, será necessário instalar os seguintes programas:<br>
 <ul type="square">
-<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 10:</a> Necessário para executar o projeto Java;</li>
-<li><a href="https://maven.apache.org/">Maven 3.5.3: </a>Necessário para realizar o build do projeto Java;</li>
+<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 11:</a> Necessário para executar o projeto Java;</li>
+<li><a href="https://maven.apache.org/">Maven: </a>Necessário para realizar o build do projeto Java;</li>
 <li><a href="https://www.eclipse.org/downloads/packages/">Eclipse:</a> Para desenvolvimento do projeto;</li>
-<li><a href="">Postman: </a>Para a entrada, consulta, atualização e exclusão de dados;</li>
-<li><a href="">Dbeaver</a>*: Visualização dos dados armazenados no DB.</li>
+<li><a href="https://www.postman.com/downloads/">Postman: </a>Para a entrada, consulta, atualização e exclusão de dados;</li>
+<li><a href="https://www.postgresql.org/download/">PostgreSQL: </a>Sistema de Gerenciamento de Banco de Dados - SGBD;</li>
+<li><a href="https://dbeaver.io/">Dbeaver</a>*: Visualização dos dados armazenados no DB.</li>
 <br>
 </ul>
-<i>* Ou qualquer outro SGBD de sua preferência.</i>
+<i>* Ou qualquer outra ferramenta compatível com PostgreSQL.</i>
 <br><br>
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:<br><br>
 
@@ -67,10 +70,68 @@ Para rodar os testes, utilize o comando abaixo:
 
 <h2> ✨ Evidências</h2>
 <hr>
+<p align="center">Abaixo segue algumas evidências do <i>CRUD (Create, Read, Update e Delete)</i> das entidades de <i>Participantes</i>, <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. É importante mencionar que senti necessidade apenas de criar o <i>CRUD</i> completo dos <i>Participantes</i>. Neste projeto você não encontrará a possibilidade de atualizar e deletar as entidades de <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. No entanto, futuramente, é possível implementar essas funcionalidades para fins de estudos e aperfeiçoamento do projeto.</p> <p align="center">Além disso, foi implementado um <i>Relatório Geral dos Participantes</i>, isto é, o programa retorna para cada <i>Participante</i>, na Primeira e Segunda Etapa do Treinamento, o <i>nome da sala de Treinamento</i> no qual ele participará, a <i>lotação máxima</i> de participantes na sala, a <i>quantidade atual de participantes</i> inseridos na sala, o <i>nome do Espaço de Café</i> e a <i>lotação máxima do Espaço de Café</i>.</p><p align="center">Você encontrará a evidência do <i>Relatório Geral dos Participantes</i> em formato JSON, emitido pelo Postman, <a href="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias">clicando aqui</a>.</p>
+
 <ul type="square">
-<h3><li> Testes Unitários:</h3>
-Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li>
-<p align="center><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias"></p>
+<h3><li> Banco de Dados:</h3></ul>
+
+<h3><ul><ul><li> Participante: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG">
+<br><br>
+
+<li> Consultar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarParticipante1.PNG">
+<br><br>
+
+<li> Atualizar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipanteDB.PNG">
+<br><br>
+
+<li> Deletar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipanteDB.PNG">
+<br><br>
+
+</ul></ul></ul></h3>
+
+<h3><ul><ul><li> Espaço de Café: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarEspacoCafe.PNG">
+<br><br>
+
+<li> Consultar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarEspacoCafe.PNG">
+<br><br>
+</ul></ul></ul></h3>
+
+<h3><ul><ul><li> Sala de Treinamento: </li></ul></ul></h3>
+
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEvento.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEventoBD.PNG">
+<br><br>
+
+<li> Consultar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarSala.PNG">
+
+</ul></ul></ul></h3>
+
+<h3><ul><ul><li> Relatório Geral dos Participantes: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Consultar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/RelatorioGerenciamento.PNG">
+</ul></ul></ul></ul></h3>
+<br><br>
+<ul type="square">
+<h3><li> Testes Unitários:</h3></ul>
+
+<ul><ul>Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li><br></ul></ul>
+<ul><ul><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"></ul></ul><br><br>
+
 </ul>
 <br><br>
 
