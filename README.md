@@ -23,6 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <li><a href="https://www.postman.com/">Postman</a></li>
 <li><a href="https://dbeaver.io/">DBeaver</a></li>
 <li><a href="https://www.mysql.com/">MySQL</a></li>
+<li><a href="https://www.postgresql.org/">Postgres</a></li>
 <li><a href="https://spring.io/">Spring Boot</a></li>
 <li><a href="https://start.spring.io/">Spring Initializr</a></li>
 <li><a href="https://maven.apache.org/">Apache Maven</a></li>
@@ -68,9 +69,64 @@ Para rodar os testes, utilize o comando abaixo:
 <h2> ✨ Evidências</h2>
 <hr>
 <ul type="square">
-<h3><li> Testes Unitários:</h3>
-Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li>
-<p align="center><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias"></p>
+<h3><li> Banco de Dados:</h3></ul>
+
+<h3><ul><ul><li> Participante: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG">
+<br><br>
+
+<li> Consultar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarParticipante1.PNG">
+<br><br>
+
+<li> Atualizar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipanteDB.PNG">
+<br><br>
+
+<li> Deletar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipanteDB.PNG">
+<br><br>
+
+</ul></ul></ul></h3>
+
+<h3><ul><ul><li> Espaço de Café: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarEspacoCafe.PNG">
+<br><br>
+
+<li> Consultar:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarEspacoCafe.PNG">
+
+</ul></ul></ul></h3>
+
+<hr><ul><ul><li> Sala de Treinamento: </li></ul></ul></hr>
+
+<h3><ul><ul><ul><li> Cadastrar:</li>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEvento.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEventoBD.PNG">
+
+<li> Consultar:</li>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarSala.PNG">
+
+</ul></ul></ul></h3>
+
+<h3><ul><ul><li> Relatório Geral dos Participantes: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Consultar:</li>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/RelatorioGerenciamento.PNG">
+</ul></ul></ul></ul></h3>
+
+<ul type="square">
+<h3><li> Testes Unitários:</h3></ul>
+
+<ul><ul>Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li><br></ul></ul>
+<ul><ul><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"></ul></ul><br><br>
+
 </ul>
 <br><br>
 
