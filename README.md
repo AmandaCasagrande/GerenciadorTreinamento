@@ -69,8 +69,8 @@ Para rodar os testes, utilize o comando abaixo:
 <hr>
 <ul type="square">
 <h3><li> Testes Unitários:</h3>
-Foi desenvolvido testes unitários da camada de Service e Controller, segue abaixo algumas evidências do sucessos dos testes:</li>
-<IMG src="EspacoCafeServiceTest.PNG">
+Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li>
+<p align="center><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias"></p>
 </ul>
 <br><br>
 
