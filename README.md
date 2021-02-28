@@ -70,7 +70,7 @@ Para rodar os testes, utilize o comando abaixo:
 
 <h2> ✨ Evidências</h2>
 <hr>
-<p align="center">Abaixo segue algumas evidências do <i>CRUD (Create, Read, Update e Delete)</i> das entidades de <i>Participantes</i>, <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. É importante mencionar que senti necessidade apenas de criar o <i>CRUD</i> completo dos <i>Participantes</i>. Neste projeto você não encontrará a possibilidade de atualizar e deletar as entidades de <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. No entanto, futuramente, é possível implementar essas funcionalidades para fins de estudos e aperfeiçoamento do projeto.</p> <p align="center">Além disso, foi implementado um <i>Relatório Geral dos Participantes</i>, isto é, o programa retorna para cada <i>Participante</i>, na Primeira e Segunda Etapa do Treinamento, o nome da sala de Treinamento no qual ele participará, a lotação máxima de participantes na sala, a quantidade atual de participantes inseridos na sala, o nome do Espaço de Café e a lotação máxima do Espaço de Café. No fim da evidência do Relatório Geral dos Participantes, você encontrará o relatório gerado pelo Postman em formato JSON.</p>
+<p align="center">Abaixo segue algumas evidências do <i>CRUD (Create, Read, Update e Delete)</i> das entidades de <i>Participantes</i>, <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. É importante mencionar que senti necessidade apenas de criar o <i>CRUD</i> completo dos <i>Participantes</i>. Neste projeto você não encontrará a possibilidade de atualizar e deletar as entidades de <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. No entanto, futuramente, é possível implementar essas funcionalidades para fins de estudos e aperfeiçoamento do projeto.</p> <p align="center">Além disso, foi implementado um <i>Relatório Geral dos Participantes</i>, isto é, o programa retorna para cada <i>Participante</i>, na Primeira e Segunda Etapa do Treinamento, o <i>nome da sala de Treinamento</i> no qual ele participará, a <i>lotação máxima</i> de participantes na sala, a <i>quantidade atual de participantes</i> inseridos na sala, o <i>nome do Espaço de Café</i> e a <i>lotação máxima do Espaço de Café</i>. No fim da evidência do <i>Relatório Geral dos Participantes</i>, você encontrará o relatório gerado pelo Postman em formato JSON.</p>
 <ul type="square">
 <h3><li> Banco de Dados:</h3></ul>
 
@@ -132,6 +132,278 @@ Para rodar os testes, utilize o comando abaixo:
 <ul><ul><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"></ul></ul><br><br>
 
 </ul>
+[
+    {
+        "participante": {
+            "id": 7,
+            "nomeParticipante": "Amanda",
+            "sobrenomeParticipante": "Casagrande"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 4,
+            "nomeSalaEvento": "Sala Treinamento A",
+            "lotacaoMaximaEvento": 50,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 5,
+            "nomeSalaEvento": "Sala Treinamento B",
+            "lotacaoMaximaEvento": 80,
+            "lotacaoAtual": 3
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 8,
+            "nomeParticipante": "João",
+            "sobrenomeParticipante": "Silva"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 5,
+            "nomeSalaEvento": "Sala Treinamento B",
+            "lotacaoMaximaEvento": 80,
+            "lotacaoAtual": 3
+        },
+        "salaSegundaEtapa": {
+            "id": 6,
+            "nomeSalaEvento": "Sala Treinamento C",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 9,
+            "nomeParticipante": "Bruna",
+            "sobrenomeParticipante": "Muller"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 6,
+            "nomeSalaEvento": "Sala Treinamento C",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 7,
+            "nomeSalaEvento": "Sala Treinamento D",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 11,
+            "nomeParticipante": "Leandro",
+            "sobrenomeParticipante": "Bueno"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 7,
+            "nomeSalaEvento": "Sala Treinamento D",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 4,
+            "nomeSalaEvento": "Sala Treinamento A",
+            "lotacaoMaximaEvento": 50,
+            "lotacaoAtual": 2
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 12,
+            "nomeParticipante": "Pedro",
+            "sobrenomeParticipante": "Torres"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 4,
+            "nomeSalaEvento": "Sala Treinamento A",
+            "lotacaoMaximaEvento": 50,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 5,
+            "nomeSalaEvento": "Sala Treinamento B",
+            "lotacaoMaximaEvento": 80,
+            "lotacaoAtual": 3
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 13,
+            "nomeParticipante": "Otávio",
+            "sobrenomeParticipante": "Ferreira"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 5,
+            "nomeSalaEvento": "Sala Treinamento B",
+            "lotacaoMaximaEvento": 80,
+            "lotacaoAtual": 3
+        },
+        "salaSegundaEtapa": {
+            "id": 6,
+            "nomeSalaEvento": "Sala Treinamento C",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 14,
+            "nomeParticipante": "Luciana",
+            "sobrenomeParticipante": "Silveira"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 6,
+            "nomeSalaEvento": "Sala Treinamento C",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 7,
+            "nomeSalaEvento": "Sala Treinamento D",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 15,
+            "nomeParticipante": "Julia",
+            "sobrenomeParticipante": "Fraga"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 7,
+            "nomeSalaEvento": "Sala Treinamento D",
+            "lotacaoMaximaEvento": 30,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 4,
+            "nomeSalaEvento": "Sala Treinamento A",
+            "lotacaoMaximaEvento": 50,
+            "lotacaoAtual": 2
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    },
+    {
+        "participante": {
+            "id": 10,
+            "nomeParticipante": "Gabriela",
+            "sobrenomeParticipante": "Borges"
+        },
+        "salaPrimeiraEtapa": {
+            "id": 4,
+            "nomeSalaEvento": "Sala Treinamento A",
+            "lotacaoMaximaEvento": 50,
+            "lotacaoAtual": 2
+        },
+        "salaSegundaEtapa": {
+            "id": 5,
+            "nomeSalaEvento": "Sala Treinamento B",
+            "lotacaoMaximaEvento": 80,
+            "lotacaoAtual": 3
+        },
+        "cafePrimeiraEtapa": {
+            "id": 4,
+            "nomeEspacoCafe": "Espaco Cafe 1",
+            "lotacaoEspacoCafe": 15
+        },
+        "cafeSegundaEtapa": {
+            "id": 5,
+            "nomeEspacoCafe": "Espaco Cafe 2",
+            "lotacaoEspacoCafe": 20
+        },
+        "erros": null
+    }
+]
 <br><br>
 
 <h2> ✨ Onde me encontrar:</h2>
