@@ -10,7 +10,7 @@
 <br>
 <p align="center"><cite>"O treinamento será realizado em 2 etapas e as pessoas serão divididas em salas com lotação variável. Serão realizados também dois intervalos de café em 2 espaços distintos. Você precisa criar o sistema que gerenciará este evento."</cite>
 <br>
-  <p align="center">Neste ReadMe.md você encontrará as <u>Tecnologias</u> utilizadas para o desenvolvimento deste trabalho, assim como uma breve explicação <u>Como compilar e executar este programa</u>, as <u>Evidências</u> para comprovação de alguns pontos que eu considero importante para o funcionamento do projeto e, por fim, <u>Onde me encontrar</u> nas redes sociais.</p>
+  <p align="center">Neste <i>ReadMe.md</i> você encontrará as <i>Tecnologias</i> utilizadas para o desenvolvimento deste trabalho, assim como uma breve explicação <i>Como compilar e executar este programa</i>, as <i>Evidências</i> para comprovação de alguns pontos que eu considero importante para o funcionamento do projeto e, por fim, <i>Onde me encontrar</i> nas redes sociais.</p>
 </p>
 <br>
 </ul>
