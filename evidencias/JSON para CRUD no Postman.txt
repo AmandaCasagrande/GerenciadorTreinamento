@@ -1,6 +1,6 @@
-===========================================
-	   JSON POSTMAN
-===========================================
+===================================================================
+	               JSON POSTMAN
+===================================================================
 
 Collections Participante:
 
@@ -19,7 +19,7 @@ Collections Participante:
     "sobrenomeParticipante": "Casagrande"
 }
 
-===========================================
+=====================================================================
 
 Collections Salas de Treinamento:
 
@@ -33,7 +33,7 @@ Collections Salas de Treinamento:
 	"lotacaoSalaEvento": "30"
 }
 
-===========================================
+======================================================================
 
 Collections Espaços de Café:
 
@@ -47,7 +47,7 @@ Collections Espaços de Café:
 	"lotacaoEspacoCafe": "15"
 }
 
-===========================================
+======================================================================
 Collection Gerar Treinamento (Relatório Geral):
 
 * Post: http://localhost:8080/gerarTreinamento
