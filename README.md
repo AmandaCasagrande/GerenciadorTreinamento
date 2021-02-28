@@ -70,7 +70,7 @@ Para rodar os testes, utilize o comando abaixo:
 
 <h2> ✨ Evidências</h2>
 <hr>
-<p align="center">Abaixo segue algumas evidências do <i>CRUD (Create, Read, Update e Delete)</i> das entidades de <i>Participantes</i>, <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. É importante mencionar que senti necessidade apenas de criar o <i>CRUD</i> completo dos Participantes. Neste projeto você não encontrará a possibilidade de atualizar e deletar as entidades de <i>Espaço de Café</i> e <i>Sala de Treinamento</i>.</p>
+<p align="center">Abaixo segue algumas evidências do <i>CRUD (Create, Read, Update e Delete)</i> das entidades de <i>Participantes</i>, <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. É importante mencionar que senti necessidade apenas de criar o <i>CRUD</i> completo dos <i>Participantes</i>. Neste projeto você não encontrará a possibilidade de atualizar e deletar as entidades de <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. No entanto, futuramente, é possível implementar essas funcionalidades para fins de estudos e aperfeiçoamento do projeto.</p>
 <ul type="square">
 <h3><li> Banco de Dados:</h3></ul>
 
