@@ -40,10 +40,10 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <p>Para executar o projeto, será necessário instalar os seguintes programas:<br>
 <ul type="square">
 <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 11:</a> Necessário para executar o projeto Java;</li>
-<li><a href="https://maven.apache.org/">Maven 3.5.3: </a>Necessário para realizar o build do projeto Java;</li>
+<li><a href="https://maven.apache.org/">Maven: </a>Necessário para realizar o build do projeto Java;</li>
 <li><a href="https://www.eclipse.org/downloads/packages/">Eclipse:</a> Para desenvolvimento do projeto;</li>
 <li><a href="https://www.postman.com/downloads/">Postman: </a>Para a entrada, consulta, atualização e exclusão de dados;</li>
-<li><a href="https://www.postgresql.org/download/">PostgreSQL: </a>SGBD;</li>
+<li><a href="https://www.postgresql.org/download/">PostgreSQL: </a>Sistema de Gerenciamento de Banco de Dados - SGBD;</li>
 <li><a href="https://dbeaver.io/">Dbeaver</a>*: Visualização dos dados armazenados no DB.</li>
 <br>
 </ul>
