@@ -1,0 +1,58 @@
+===========================================
+				JSON POSTMAN
+===========================================
+
+Collections Participante:
+
+* Post: http://localhost:8080/MovimentacoesParticipante
+
+* Get: http://localhost:8080/MovimentacoesParticipante/{id}
+	Exemplo: http://localhost:8080/MovimentacoesParticipante/10
+	
+* Put: http://localhost:8080/MovimentacoesUsuarios/{id}
+	Exemplo: http://localhost:8080/MovimentacoesParticipante/16
+
+* Delete: http://localhost:8080/MovimentacoesParticipante/16
+
+{
+    "nomeParticipante" : "Amanda",
+    "sobrenomeParticipante": "Casagrande"
+}
+
+===========================================
+
+Collections Salas de Treinamento:
+
+* Post: http://localhost:8080/MovimentacoesSala
+
+* Get: http://localhost:8080/MovimentacoesParticipante/{Nome da Sala}
+	Exemplo: http://localhost:8080/MovimentacoesSala/Sala Treinamento B
+	
+{
+    "nomeSalaEvento":"Sala Treinamento D",
+	"lotacaoSalaEvento": "30"
+}
+
+===========================================
+
+Collections Espaços de Café:
+
+* Post: http://localhost:8080/MovimentacoesCafe
+
+* Get: http://localhost:8080/MovimentacoesCafe/{Nome do Espaco}
+	Exemplo: http://localhost:8080/MovimentacoesCafe/Espaco Cafe 2
+	
+{
+    "nomeEspacoCafe":"Espaco Cafe 3",
+	"lotacaoEspacoCafe": "15"
+}
+
+===========================================
+Collection Gerar Treinamento (Relatório Geral):
+
+* Post: http://localhost:8080/gerarTreinamento
+
+{
+    "idEspaco1" : 4,
+    "idEspaco2" : 5
+}
