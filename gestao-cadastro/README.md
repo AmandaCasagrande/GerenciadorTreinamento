@@ -72,13 +72,15 @@ Para rodar os testes, utilize o comando abaixo:
 <h3><li> Banco de Dados:</h3></ul>
 <h4><ul><ul><li> Participante: </li></h4></ul>
 <ul><ul><ul><li> Cadastrar:</li>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG">
 <li> Consultar:</li>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarParticipante1.PNG">
 <li> Atualizar:</li>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipanteDB.PNG">
 <li> Deletar:</li>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipante.PNG">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipanteDB.PNG">
 </ul></ul></ul>
 
 <h4><ul><ul><li> Espaço de Café: </li></h4></ul></ul>
@@ -94,7 +96,7 @@ Para rodar os testes, utilize o comando abaixo:
 <h3><li> Testes Unitários:</h3></ul>
 
 Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li><br>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"><br><br>
+<ul><ul><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"></ul></ul><br><br>
 
 </ul>
 <br><br>
