@@ -67,6 +67,11 @@ Para rodar os testes, utilize o comando abaixo:
 
 <h2> ✨ Evidências</h2>
 <hr>
+<ul type="square">
+<h3><li> Testes Unitários:</h3>
+Foi desenvolvido testes unitários da camada de Service e Controller, segue abaixo algumas evidências do sucessos dos testes:</li>
+<IMG src="EspacoCafeServiceTest.PNG">
+</ul>
 <br><br>
 
 <h2> ✨ Onde me encontrar:</h2>

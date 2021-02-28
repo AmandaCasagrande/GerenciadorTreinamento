@@ -3,10 +3,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
+import java.util.Optional;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import br.com.empresa.gestaocadastro.dto.ParticipanteDTO;
@@ -34,25 +37,52 @@ public class ParticipanteServiceTest {
 		assertEquals(participante.getSobrenomeParticipante(), cadastrar.getSobrenomePessoa());
 	}
 
-	private ParticipanteEntity criarParticipanteEntity(ParticipanteForm participante) {
-		ParticipanteEntity pe = new ParticipanteEntity();
-		pe.setId(1L);
-		pe.setNomeParticipante(participante.getNomeParticipante());
-		pe.setSobrenomeParticipante(participante.getSobrenomeParticipante());
-		return pe;
+	@Test
+	public void consultarTeste() {
+		when(participanteRepository.findFirstByNomeParticipante(any())).thenReturn(criarParticipanteEntityOptional("Amanda", "Oliveira"));
+		
+		ParticipanteDTO consultar = participanteService.consultar("Amanda");
+		
+		assertEquals("Amanda", consultar.getPrimeiroNomePessoa());
+		
 	}
 	
 	@Test
-	public void consultarTeste() {
-		
-	}
-	@Test
 	public void atualizarTeste() {
+		ParticipanteForm participante = new ParticipanteForm("Amanda", "Casagrande");
+		Optional<ParticipanteEntity> participanteOptional = criarParticipanteEntityOptional("Amanda", "Oliveira");
 		
+		when(participanteRepository.findById(any())).thenReturn(participanteOptional);
+		when(participanteRepository.save(any())).thenReturn(participanteOptional.get());
+
+		ParticipanteDTO atualizar = participanteService.atualizar(1L, participante);
+		
+		assertEquals("Amanda", atualizar.getPrimeiroNomePessoa());
+		assertEquals("Casagrande", atualizar.getSobrenomePessoa());
 	}
 	
 	@Test
 	public void deletarTeste() {
+		when(participanteRepository.findById(any())).thenReturn(criarParticipanteEntityOptional("Amanda", "Oliveira"));
 		
+		participanteService.deletar(1L);
+		
+		Mockito.verify(participanteRepository).delete(any());
+	}
+	
+	private ParticipanteEntity criarParticipanteEntity(ParticipanteForm participante) {
+		ParticipanteEntity participanteEntity = new ParticipanteEntity();
+		participanteEntity.setId(1L);
+		participanteEntity.setNomeParticipante(participante.getNomeParticipante());
+		participanteEntity.setSobrenomeParticipante(participante.getSobrenomeParticipante());
+		return participanteEntity;
+	}
+	
+	private Optional<ParticipanteEntity> criarParticipanteEntityOptional(String nome, String sobrenome) {
+		ParticipanteEntity participante = new ParticipanteEntity();
+		participante.setId(1L);
+		participante.setNomeParticipante(nome);
+		participante.setSobrenomeParticipante(sobrenome);
+		return Optional.of(participante);
 	}
 }
