@@ -70,7 +70,7 @@ Para rodar os testes, utilize o comando abaixo:
 <ul type="square">
 <h3><li> Testes Unitários:</h3>
 Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li>
-<p align="center><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias"></p>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias">
 </ul>
 <br><br>
 
