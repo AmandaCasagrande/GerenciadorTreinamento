@@ -72,7 +72,7 @@ Para rodar os testes, utilize o comando abaixo:
 <h3><li> Banco de Dados:</h3></ul>
 <h4><ul><ul><li> Participante: </li></h4></ul>
 <ul><ul><ul><li> Cadastrar:</li>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG" alt="centered image">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG" style="center">
 <li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarParticipante1.PNG">
 <li> Atualizar:</li>
@@ -99,9 +99,9 @@ Para rodar os testes, utilize o comando abaixo:
 </ul></ul></ul>
 
 <h4><ul><ul><li> Relatório Geral dos Participantes: </li></h4></ul>
-<li> Consultar:</li>
+<li><ul> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/RelatorioGerenciamento.PNG">
-</ul></ul></ul>
+</ul></ul></ul></ul>
 
 <ul type="square">
 <h3><li> Testes Unitários:</h3></ul>
