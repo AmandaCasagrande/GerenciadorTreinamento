@@ -12,13 +12,13 @@ public class SalaEventoDTO {
 
 	private Long id;
 	private String nomeSalaEvento;
-	private Integer lotacaoTotalSalaEvento;
+	private Integer lotacaoMaximaEvento;
 	private Integer lotacaoAtual;
 	
 	public SalaEventoDTO(SalaEventoEntity salaEntity) {
 		this.id = salaEntity.getId();
 		this.nomeSalaEvento = salaEntity.getNomeSalaEvento();
-		this.lotacaoTotalSalaEvento = salaEntity.getLotacaoSalaEvento();
+		this.lotacaoMaximaEvento = salaEntity.getLotacaoSalaEvento();
 		this.lotacaoAtual = 0;
 	}
 	

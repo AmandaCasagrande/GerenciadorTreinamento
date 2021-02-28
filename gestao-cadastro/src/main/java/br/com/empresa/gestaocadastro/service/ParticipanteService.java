@@ -27,8 +27,8 @@ public class ParticipanteService {
 		return new ParticipanteDTO(participanteRepository.save(participanteEntity));
 	}
 
-	public ParticipanteDTO consultar(String nomeParticipante){
-		Optional<ParticipanteEntity> participanteEntity = participanteRepository.findFirstByNomeParticipante(nomeParticipante);
+	public ParticipanteDTO consultar(Long id){
+		Optional<ParticipanteEntity> participanteEntity = participanteRepository.findById(id);
 		
 		if (participanteEntity.isPresent()) {
 			return new ParticipanteDTO(participanteEntity.get());

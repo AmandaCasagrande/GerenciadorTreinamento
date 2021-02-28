@@ -20,7 +20,7 @@ import br.com.empresa.gestaocadastro.dto.form.SalaEventoForm;
 import br.com.empresa.gestaocadastro.service.SalaEventoService;
 
 @RestController
-@RequestMapping({"MovimentacoesSalas"})
+@RequestMapping({"MovimentacoesSala"})
 public class SalaEventoController {
 
 	@Autowired

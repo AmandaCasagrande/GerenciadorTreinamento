@@ -22,7 +22,7 @@ import br.com.empresa.gestaocadastro.dto.form.ParticipanteForm;
 import br.com.empresa.gestaocadastro.service.ParticipanteService;
 
 @RestController
-@RequestMapping({"MovimentacoesUsuarios"})
+@RequestMapping({"MovimentacoesParticipante"})
 public class ParticipanteController {
 
 	@Autowired
@@ -37,14 +37,12 @@ public class ParticipanteController {
 		return ResponseEntity.created(uri).body(participanteDTO);
 	}
 	
-	@GetMapping(path = {"/{nomeParticipante}"})
-	public ResponseEntity<ParticipanteDTO> consultar (@PathVariable String nomeParticipante){
-		ParticipanteDTO participanteDTO = service.consultar(nomeParticipante);
+	@GetMapping(path = {"/{id}"})
+	public ResponseEntity<ParticipanteDTO> consultar (@PathVariable Long id){
+		ParticipanteDTO participanteDTO = service.consultar(id);
 	
 		if (Objects.nonNull(participanteDTO)) {
 			return ResponseEntity.ok(participanteDTO);
-			// retornar à sala em que a
-			//pessoa ficará em cada etapa e o espaço onde ela realizará cada intervalo de café.
 		}
 		return ResponseEntity.notFound().build();
 	}

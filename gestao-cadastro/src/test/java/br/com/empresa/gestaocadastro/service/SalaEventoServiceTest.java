@@ -34,7 +34,7 @@ public class SalaEventoServiceTest {
 		SalaEventoDTO cadastrar = salaEventoService.cadastrar(sala);
 	
 		assertEquals(sala.getNomeSalaEvento(), cadastrar.getNomeSalaEvento());
-		assertEquals(sala.getLotacaoSalaEvento(), cadastrar.getLotacaoTotalSalaEvento());
+		assertEquals(sala.getLotacaoSalaEvento(), cadastrar.getLotacaoMaximaEvento());
 	}
 
 	@Test

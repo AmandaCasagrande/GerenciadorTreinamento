@@ -39,9 +39,9 @@ public class ParticipanteServiceTest {
 
 	@Test
 	public void consultarTeste() {
-		when(participanteRepository.findFirstByNomeParticipante(any())).thenReturn(criarParticipanteEntityOptional("Amanda", "Oliveira"));
+		when(participanteRepository.findById(any())).thenReturn(criarParticipanteEntityOptional("Amanda", "Oliveira"));
 		
-		ParticipanteDTO consultar = participanteService.consultar("Amanda");
+		ParticipanteDTO consultar = participanteService.consultar(1L);
 		
 		assertEquals("Amanda", consultar.getPrimeiroNomePessoa());
 		

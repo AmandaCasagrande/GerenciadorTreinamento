@@ -23,6 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <li><a href="https://www.postman.com/">Postman</a></li>
 <li><a href="https://dbeaver.io/">DBeaver</a></li>
 <li><a href="https://www.mysql.com/">MySQL</a></li>
+<li><a href="https://www.postgresql.org/">Postgres</a></li>
 <li><a href="https://spring.io/">Spring Boot</a></li>
 <li><a href="https://start.spring.io/">Spring Initializr</a></li>
 <li><a href="https://maven.apache.org/">Apache Maven</a></li>
@@ -68,9 +69,33 @@ Para rodar os testes, utilize o comando abaixo:
 <h2> ✨ Evidências</h2>
 <hr>
 <ul type="square">
-<h3><li> Testes Unitários:</h3>
-Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li>
+<h3><li> Banco de Dados:</h3></ul>
+<h4><ul><ul><li> Participante: </li></h4></ul>
+<ul><ul><ul><li> Cadastrar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<li> Consultar:</li>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<li> Atualizar:</li>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+<li> Deletar:</li>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG">
+</ul></ul></ul>
+
+<h4><ul><ul><li> Espaço de Café: </li></h4></ul></ul>
+<ul><ul><ul><li> Cadastrar:</li>
+<li> Consultar:</li></ul></ul></ul>
+
+<h4><ul><ul><li> Sala de Treinamento: </li></h4></ul></ul>
+<ul><ul><ul><li> Cadastrar:</li>
+<li> Consultar:</li></ul></ul></ul>
+
+
+<ul type="square">
+<h3><li> Testes Unitários:</h3></ul>
+
+Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li><br>
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"><br><br>
+
 </ul>
 <br><br>
 

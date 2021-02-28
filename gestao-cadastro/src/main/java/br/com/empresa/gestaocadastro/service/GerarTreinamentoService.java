@@ -89,7 +89,7 @@ public class GerarTreinamentoService {
 
 	private Integer pegarTotalLotacao(List<SalaEventoDTO> listaSalaEventoDTO) {
 		Integer lotacaoMaxima = listaSalaEventoDTO.stream()
-				.map(SalaEventoDTO::getLotacaoTotalSalaEvento)
+				.map(SalaEventoDTO::getLotacaoMaximaEvento)
 				.reduce(Integer.valueOf(0), this::Somar);
 		return lotacaoMaxima;
 	}
@@ -105,7 +105,7 @@ public class GerarTreinamentoService {
 	}
 
 	private boolean salaSemEspacoDisponivel(SalaEventoDTO sala) {
-		return sala.getLotacaoAtual() > sala.getLotacaoTotalSalaEvento();
+		return sala.getLotacaoAtual() > sala.getLotacaoMaximaEvento();
 	}
 
 	private SalaEventoDTO pegarProximaSala(List<SalaEventoDTO> listaSalaEvento) {

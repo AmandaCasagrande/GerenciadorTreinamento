@@ -20,7 +20,7 @@ import br.com.empresa.gestaocadastro.dto.form.EspacoCafeForm;
 import br.com.empresa.gestaocadastro.service.EspacoCafeService;
 
 @RestController
-@RequestMapping({"MovimentacoesEspacos"})
+@RequestMapping({"MovimentacoesCafe"})
 public class EspacoCafeController {
 	
 	@Autowired
