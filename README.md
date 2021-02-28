@@ -24,8 +24,8 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK</a></li>
 <li><a href="https://www.postman.com/">Postman</a></li>
 <li><a href="https://dbeaver.io/">DBeaver</a></li>
-<li><a href="https://www.mysql.com/">MySQL</a></li>
 <li><a href="https://www.postgresql.org/">Postgres</a></li>
+<li><a href="https://projectlombok.org/">Lombok</a></li>
 <li><a href="https://spring.io/">Spring Boot</a></li>
 <li><a href="https://start.spring.io/">Spring Initializr</a></li>
 <li><a href="https://maven.apache.org/">Apache Maven</a></li>
@@ -40,14 +40,15 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <p>Inserir aqui a explicação</p>
 <p>Para executar o projeto, será necessário instalar os seguintes programas:<br>
 <ul type="square">
-<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 10:</a> Necessário para executar o projeto Java;</li>
+<li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 11:</a> Necessário para executar o projeto Java;</li>
 <li><a href="https://maven.apache.org/">Maven 3.5.3: </a>Necessário para realizar o build do projeto Java;</li>
 <li><a href="https://www.eclipse.org/downloads/packages/">Eclipse:</a> Para desenvolvimento do projeto;</li>
-<li><a href="">Postman: </a>Para a entrada, consulta, atualização e exclusão de dados;</li>
-<li><a href="">Dbeaver</a>*: Visualização dos dados armazenados no DB.</li>
+<li><a href="https://www.postman.com/downloads/">Postman: </a>Para a entrada, consulta, atualização e exclusão de dados;</li>
+<li><a href="https://www.postgresql.org/download/">PostgreSQL: </a>SGBD;</li>
+<li><a href="https://dbeaver.io/">Dbeaver</a>*: Visualização dos dados armazenados no DB.</li>
 <br>
 </ul>
-<i>* Ou qualquer outro SGBD de sua preferência.</i>
+<i>* Ou qualquer outra ferramenta compatível com PostgreSQL.</i>
 <br><br>
 Para iniciar o desenvolvimento, é necessário clonar o projeto do GitHub num diretório de sua preferência:<br><br>
 
