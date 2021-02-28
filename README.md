@@ -114,7 +114,7 @@ Para rodar os testes, utilize o comando abaixo:
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEventoBD.PNG">
 <br><br>
 
-<li> Consultar:</li>
+<li> Consultar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarSala.PNG">
 
 </ul></ul></ul></h3>
