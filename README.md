@@ -72,7 +72,6 @@ Para rodar os testes, utilize o comando abaixo:
 <hr>
 <p align="center">Abaixo segue algumas evidências do <i>CRUD (Create, Read, Update e Delete)</i> das entidades de <i>Participantes</i>, <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. É importante mencionar que senti necessidade apenas de criar o <i>CRUD</i> completo dos <i>Participantes</i>. Neste projeto você não encontrará a possibilidade de atualizar e deletar as entidades de <i>Espaço de Café</i> e <i>Sala de Treinamento</i>. No entanto, futuramente, é possível implementar essas funcionalidades para fins de estudos e aperfeiçoamento do projeto.</p> <p align="center">Além disso, foi implementado um <i>Relatório Geral dos Participantes</i>, isto é, o programa retorna para cada <i>Participante</i>, na Primeira e Segunda Etapa do Treinamento, o <i>nome da sala de Treinamento</i> no qual ele participará, a <i>lotação máxima</i> de participantes na sala, a <i>quantidade atual de participantes</i> inseridos na sala, o <i>nome do Espaço de Café</i> e a <i>lotação máxima do Espaço de Café</i>.</p><p align="center">Você encontrará a evidência do <i>Relatório Geral dos Participantes</i> em formato JSON, emitido pelo Postman, <a href="https://github.com/AmandaCasagrande/GerenciadorTreinamento/tree/master/evidencias">clicando aqui</a>.</p>
 
-<a href="url">Exemplo</a>
 <ul type="square">
 <h3><li> Banco de Dados:</h3></ul>
 
