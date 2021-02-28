@@ -101,14 +101,15 @@ Para rodar os testes, utilize o comando abaixo:
 
 <li> Consultar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarEspacoCafe.PNG">
-
+<br><br>
 </ul></ul></ul></h3>
 
-<hr><ul><ul><li> Sala de Treinamento: </li></ul></ul></hr>
+<h3><ul><ul><li> Sala de Treinamento: </li></ul></ul></h3>
 
-<h3><ul><ul><ul><li> Cadastrar:</li>
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEvento.PNG">
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEventoBD.PNG">
+<br><br>
 
 <li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarSala.PNG">
@@ -117,10 +118,10 @@ Para rodar os testes, utilize o comando abaixo:
 
 <h3><ul><ul><li> Relatório Geral dos Participantes: </li></h3></ul>
 
-<h3><ul><ul><ul><li> Consultar:</li>
+<h3><ul><ul><ul><li> Consultar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/RelatorioGerenciamento.PNG">
 </ul></ul></ul></ul></h3>
-
+<br><br>
 <ul type="square">
 <h3><li> Testes Unitários:</h3></ul>
 
