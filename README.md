@@ -24,7 +24,7 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK</a></li>
 <li><a href="https://www.postman.com/">Postman</a></li>
 <li><a href="https://dbeaver.io/">DBeaver</a></li>
-<li><a href="https://www.postgresql.org/">Postgres</a></li>
+<li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
 <li><a href="https://projectlombok.org/">Lombok</a></li>
 <li><a href="https://spring.io/">Spring Boot</a></li>
 <li><a href="https://start.spring.io/">Spring Initializr</a></li>
@@ -37,7 +37,6 @@ As seguintes ferramentas foram usadas na construção do projeto:<br><br>
 <h2> ✨ Como compilar e executar este programa</h2>
 <hr>
 <ul>
-<p>Inserir aqui a explicação</p>
 <p>Para executar o projeto, será necessário instalar os seguintes programas:<br>
 <ul type="square">
 <li><a href="https://www.oracle.com/java/technologies/javase-downloads.html">JDK 11:</a> Necessário para executar o projeto Java;</li>
