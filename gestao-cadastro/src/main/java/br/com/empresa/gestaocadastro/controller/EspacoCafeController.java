@@ -33,9 +33,7 @@ public class EspacoCafeController {
 		
 		URI uri = uriBuilder.path("/espacoCafe/{id}").buildAndExpand(espacoCafeDTO.getId()).toUri();
 		return ResponseEntity.created(uri).body(espacoCafeDTO);
-		
 	}
-	
 	
 	@GetMapping(path = {"/{nomeEspacoCafe}"})
 	public ResponseEntity<EspacoCafeDTO> consultar(@PathVariable String nomeEspacoCafe){
@@ -44,11 +42,9 @@ public class EspacoCafeController {
 		if (Objects.nonNull(espacoCafeDTO)) {
 			return ResponseEntity.ok(espacoCafeDTO);
 			//retornar relatório de lista de pessoas;
-			
 		} 
 	
 		return ResponseEntity.notFound().build();	
 	}
-
 }
  

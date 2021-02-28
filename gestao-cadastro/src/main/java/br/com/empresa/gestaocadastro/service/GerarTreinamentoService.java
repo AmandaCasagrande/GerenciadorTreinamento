@@ -45,16 +45,27 @@ public class GerarTreinamentoService {
 			GerarTreinamentoDTO resultado = new GerarTreinamentoDTO();
 			resultado.setParticipante(participante);
 			resultado.setSalaPrimeiraEtapa(pegarProximaSalaDisponivel(listaSalaEventoDTO));
-			resultado.setSalaPrimeiraEtapa(resultado.getSalaPrimeiraEtapa());
+			resultado.setSalaSegundaEtapa(null);
 			resultado.setCafePrimeiraEtapa(cafe1);
 			resultado.setCafeSegundaEtapa(cafe2);
 			
 			listaResultado.add(resultado);
 		}
 		
+		zerarLotacaoAposPrimeiraEtapa(listaSalaEventoDTO);
 		
+		for (GerarTreinamentoDTO treinamento : listaResultado) {
+			treinamento.setSalaSegundaEtapa(pegarProximaSalaDisponivel(listaSalaEventoDTO));
+		}
 
 		return listaResultado;
+	}
+
+	private void zerarLotacaoAposPrimeiraEtapa(List<SalaEventoDTO> listaSalaEventoDTO) {
+		this.indiceUltimaSala = 0;
+		listaSalaEventoDTO.forEach(sala -> {
+			sala.setLotacaoAtual(0);
+		});
 	}
 
 	private EspacoCafeEntity buscarEspacoCafe(Long idEspacoCafe) {
