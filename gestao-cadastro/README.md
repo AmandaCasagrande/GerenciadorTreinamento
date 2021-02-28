@@ -70,22 +70,35 @@ Para rodar os testes, utilize o comando abaixo:
 <hr>
 <ul type="square">
 <h3><li> Banco de Dados:</h3></ul>
+
 <h3><ul><ul><li> Participante: </li></h3></ul>
+
 <h3><ul><ul><ul><li> Cadastrar:</li><br>
-<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG" style="center">
+<IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/InserirParticipante.PNG">
+<br><br>
+
 <li> Consultar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarParticipante1.PNG">
+<br><br>
+
 <li> Atualizar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipante.PNG">
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/EditarParticipanteDB.PNG">
+<br><br>
+
 <li> Deletar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipante.PNG">
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipanteDB.PNG">
+<br><br>
+
 </ul></ul></ul>
 
-<h3><ul><ul><li> Espaço de Café: </li></h3></ul></ul>
-<h3><ul><ul><ul><li> Cadastrar:</li></h3>
+<h3><ul><ul><li> Espaço de Café: </li></h3></ul>
+
+<h3><ul><ul><ul><li> Cadastrar:</li><br>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarEspacoCafe.PNG">
+<br><br>
+
 <h3><li> Consultar:</li></h3>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarEspacoCafe.PNG">
 </ul></ul></ul>
