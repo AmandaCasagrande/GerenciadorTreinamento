@@ -91,7 +91,7 @@ Para rodar os testes, utilize o comando abaixo:
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/DeletarParticipanteDB.PNG">
 <br><br>
 
-</ul></ul></ul>
+</ul></ul></ul></h3>
 
 <h3><ul><ul><li> Espaço de Café: </li></h3></ul>
 
@@ -99,27 +99,32 @@ Para rodar os testes, utilize o comando abaixo:
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarEspacoCafe.PNG">
 <br><br>
 
-<h3><li> Consultar:</li></h3>
+<li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarEspacoCafe.PNG">
-</ul></ul></ul>
 
-<h3><ul><ul><li> Sala de Treinamento: </li></h3></ul></ul>
+</ul></ul></ul></h3>
+
+<ul><ul><li> Sala de Treinamento: </li></ul></ul>
+
 <h3><ul><ul><ul><li> Cadastrar:</li><h3>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEvento.PNG">
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/CadastrarSalaEventoBD.PNG">
-<h3><li> Consultar:</li></h3>
+
+<li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ConsultarSala.PNG">
-</ul></ul></ul>
+
+</ul></ul></ul></h3>
 
 <h3><ul><ul><li> Relatório Geral dos Participantes: </li></h3></ul>
-<h3><ul><ul><ul><li> Consultar:</li><h3>
+
+<h3><ul><ul><ul><li> Consultar:</li>
 <IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/RelatorioGerenciamento.PNG">
-</ul></ul></ul></ul>
+</ul></ul></ul></ul></h3>
 
 <ul type="square">
 <h3><li> Testes Unitários:</h3></ul>
 
-Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li><br>
+<ul><ul>Foi desenvolvido testes unitários da camada de Service, segue abaixo as evidências de sucessos dos testes:</li><br></ul></ul>
 <ul><ul><IMG src="https://github.com/AmandaCasagrande/GerenciadorTreinamento/blob/master/evidencias/ServiceTeste.PNG"></ul></ul><br><br>
 
 </ul>
